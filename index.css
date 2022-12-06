@@ -1,0 +1,51 @@
+*{
+    margin: 2%;
+    padding: 2%;
+}
+
+body{
+    background-color:rgb(37, 37, 185);
+    font-family: sans-serif;
+    font-size: 1em;
+    margin-left: 36%;
+    margin-right: 36%;
+    margin-top: 2%;
+    position: absolute;
+   
+}
+
+.botao{
+    font-size: 1.2em;
+    background-color: rgb(168, 16, 29);
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.botao:hover {
+    background-color: darkcyan;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+#check {
+    display: flexbox;
+}
+
+#fieldset {
+    border:0;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}
+
